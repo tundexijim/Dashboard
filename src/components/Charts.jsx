@@ -30,7 +30,7 @@ const Charts = () => {
         <small>Today</small>
       </div>
       <LineChart
-        width={isSmallScreen ? 350 : 600}
+        width={isSmallScreen ? 250 : 600}
         height={400}
         series={[
           { data: pData, label: "pv" },
