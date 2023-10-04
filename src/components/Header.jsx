@@ -29,7 +29,7 @@ const Header = () => {
           alt=""
         />
         <div className="hidden lg:block">
-          <p>Tunde Ijimakinde</p>
+          <p className="font-bold">Tunde Ijimakinde</p>
           <p>ijimakindetunde@gmail.com</p>
         </div>
       </div>

@@ -6,13 +6,13 @@ const Widget = () => {
       {bardata.map((data) => (
         <div
           key={data.id}
-          className="bg-white flex items-center justify-between p-4 rounded-lg lg:flex-1"
+          className="bg-white flex items-center justify-between px-6 py-4 rounded-lg lg:flex-1"
         >
           <div>
             <p className="font-bold">${data.total}</p>
             <p className="">{data.status}</p>
           </div>
-          <p className="bg-blue-400 py-2 px-1 rounded-lg">
+          <p className="bg-blue-400 py-4 px-1 rounded-lg">
             <span>18%</span>
           </p>
         </div>

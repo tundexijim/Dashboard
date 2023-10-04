@@ -18,7 +18,7 @@ const Charts = () => {
   ];
 
   return (
-    <div className="bg-white w-full rounded-lg pt-4 lg:h-[70vh] ">
+    <div className="bg-white w-full rounded-lg pt-4 h-full ">
       <div className="flex items-center justify-between mx-4">
         <p className="font-bold">Exchange Rate</p>
         <small>Edit</small>
