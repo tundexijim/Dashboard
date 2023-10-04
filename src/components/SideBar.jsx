@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const SideBar = () => {
   return (
-    <div className="flex flex-col justify-between bg-[#191919] text-white pt-32 pb-10 px-6 rounded-lg">
+    <div className="flex flex-col justify-between bg-[#191919] text-white pt-32 pb-10 px-6">
       <div className="flex flex-col gap-8">
         <Link href="/" className="flex gap-4 items-center hover:text-blue-400">
           <RxDashboard />
