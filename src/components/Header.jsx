@@ -26,6 +26,7 @@ const Header = () => {
           width={30}
           height={30}
           className=" rounded-[50%]"
+          alt=""
         />
         <div className="hidden lg:block">
           <p>Tunde Ijimakinde</p>

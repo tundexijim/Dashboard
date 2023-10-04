@@ -113,14 +113,17 @@ export const data = [
 
 export const bardata = [
   {
+    id: 1,
     total: "7,800",
     status: "Daily Revenue",
   },
   {
+    id: 2,
     total: "5,200",
     status: "Customer Revenue",
   },
   {
+    id: 3,
     total: "6,500",
     status: "Sales",
   },
